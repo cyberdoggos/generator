@@ -1,0 +1,31 @@
+# Change the seed until a million dollar collection is generated.
+seed: 222
+
+# Number of unique images you are going to create.
+number: 1000
+
+# Every two items differ in at least this number of traits.
+distance: 3
+
+# Grid size of generated images.
+image_width: 24
+image_height: 24
+
+# Determines how big each 'pixel' gets in the final image.
+# CyberDoggos are designed in a 24x24 grid, with a scale of 14 the
+# final images becomes 336x336 - just like the original CryptoPunks.
+image_scale: 14
+
+# Aspect ratio of the collage. Product of width and height
+# should be equivalent to the number off all images.
+collage_width: 50
+collage_height: 20
+
+# Determines how big each 'pixel' gets in the collage.
+collage_scale: 3
+
+# Prefix of generated files.
+prefix: cyberdoggo
+
+# Build folder path.
+build: ./build
