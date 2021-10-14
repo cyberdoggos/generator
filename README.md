@@ -1,4 +1,7 @@
 # CyberDoggos
+
+> :warning: **You are not allowed to use the provided images for your own collection**: The images are intended for demonstration purposes only. Do not use them to create your own collection. Please replace them with your own art. If you want to make a CyberDoggo tribute collection (like PicassoPunks did for CryptoPunks) please contact me on [Twitter](https://twitter.com/cyberdoggos) before.
+
 This is the original script that was used to create all CyberDoggos. Every single trait was drawn as a standalone image.
 The final image is then composed by stacking seven layers with different traits on top of each other. For each image and 
 layer one trait is randomly chosen, and the uniqueness of each image is assured.
