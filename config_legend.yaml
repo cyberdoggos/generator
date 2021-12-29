@@ -1,39 +1,7 @@
 - image_id: 44
-  name: Skellet
-  src: img/legendary/skellet.png
+  name: Gold Cow
+  src: img/legendary/GoldCow.png
 
 - image_id: 142
-  name: DogZilla
-  src: img/legendary/dogzilla.png
-
-- image_id: 239
-  name: Ghost
-  src: img/legendary/ghost.png
-
-- image_id: 385
-  name: To Be Dropped
-  src: img/legendary/tobedropped.png
-
-- image_id: 488
-  name: To Be Dropped
-  src: img/legendary/tobedropped.png
-
-- image_id: 546
-  name: To Be Dropped
-  src: img/legendary/tobedropped.png
-
-- image_id: 663
-  name: To Be Dropped
-  src: img/legendary/tobedropped.png
-
-- image_id: 783
-  name: Yeti
-  src: img/legendary/yeti.png
-
-- image_id: 866
-  name: To Be Dropped
-  src: img/legendary/tobedropped.png
-
-- image_id: 958
-  name: To Be Dropped
-  src: img/legendary/tobedropped.png
+  name: Space Cow
+  src: img/legendary/SpaceCow.png

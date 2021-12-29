@@ -3,245 +3,168 @@ background:
   values:
     blue_bgr:
       name: Blue
-      prob: 0.28
-      src: img/backgrounds/gradient_blue.png
+      prob: 0.12
+      src: img/background/blue.png
     green_bgr:
-      name: Green
-      prob: 0.28
-      src: img/backgrounds/gradient_green.png
+      name: Cloudy
+      prob: 0.12
+      src: img/background/Blue.png
     red_bgr:
       name: Red
-      prob: 0.28
-      src: img/backgrounds/gradient_red.png
+      prob: 0.12
+      src: img/background/Red.png
+    gray_bgr:
+      name: Gray
+      prob: 0.12
+      src: img/background/Gray.png
+    salmon_bgr:
+      name: Salmon
+      prob: 0.12
+      src: img/background/Salmon.png
+    pink_bgr:
+      name: Pink
+      prob: 0.12
+      src: img/background/Pink.png
     purple_bgr:
       name: Purple
-      prob: 0.14
-      src: img/backgrounds/gradient_purple.png
-    pride_bgr:
-      name: Pride
-      prob: 0.02
-      src: img/backgrounds/pride.png
-
-fur:
-  category: Fur
-  values:
-    brown_fur:
-      name: Brown
-      prob: 0.32
-      src: img/furs/brown.png
-    blonde_fur:
-      name: Blond
-      prob: 0.32
-      src: img/furs/blonde.png
-    white_fur:
-      name: White
-      prob: 0.32
-      src: img/furs/white.png
-    blue_fur:
-      name: Blue
-      prob: 0.02
-      src: img/furs/blue.png
-    red_fur:
-      name: Red
-      prob: 0.02
-      src: img/furs/red.png
-
-ear:
-  category: Accessory
-  values:
-    earring_rigth_ear:
-      name: Earring
-      prob: 0.15
-      src: img/ears/earring_right.png
-    earring_left_ear:
-      name: Earring
-      prob: 0.15
-      src: img/ears/earring_left.png
-    none_ear:
-      prob: 0.7
-      src: img/ears/none.png
-
-hat:
-  category: Accessory
-  values:
-    beanie_green_hat:
-      name: Green Beanie
       prob: 0.12
-      src: img/hats/beanie.png
-    beanie_orange_hat:
-      name: Orange Beanie
-      prob: 0.12
-      src: img/hats/beanie_orange.png
-    cap_blue_hat:
-      name: Blue Cap
-      prob: 0.12
-      src: img/hats/cap_blue.png
-    cap_hat:
-      name: Red Cap
-      prob: 0.12
-      src: img/hats/cap.png
-    bandage_hat:
-      name: Bandage
-      prob: 0.05
-      src: img/hats/bandage.png
-    helmet_hat:
-      name: Helmet
-      prob: 0.05
-      src: img/hats/helmet.png
-    hat_hat:
-      name: Hat
-      prob: 0.12
-      src: img/hats/hat.png
-    none_hat:
-      prob: 0.3
-      src: img/hats/none.png
-
-
-clothes:
-  category: Accessory
-  values:
-    collar_pink_clothes:
-      name: Pink Collar
-      prob: 0.2
-      src: img/clothes/collar_pink.png
-    collar_punk_clothes:
-      name: Punk Collar
-      prob: 0.2
-      src: img/clothes/collar_punk.png
-    smoking_clothes:
-      name: Suit
-      prob: 0.2
-      src: img/clothes/smoking.png
-    borat_clothes:
-      name: Monokini
-      prob: 0.03
-      src: img/clothes/borat.png
-    camouflage_clothes:
-      name: Camouflage Shirt
-      prob: 0.03
-      src: img/clothes/camouflage.png
-    sailor_clothes:
-      name: Sailor Suite
+      src: img/background/Purple.png
+    orange_bgr:
+      name: Orange
+      prod: 0.12
+      src: img/background/Orange.png
+    fire_bgr:
+      name: Fire
       prob: 0.04
-      src: img/clothes/sailor.png
-    scarf_clothes:
-      name: Scarf
-      prob: 0.1
-      src: img/clothes/scarf.png
-    none_clothes:
-      prob: 0.2
-      src: img/clothes/none.png
+      src: img/background/Fire.png
+    space_bgr:
+      name: Space
+      prob: 0.04
+      src: img/background/Space.png
+    cloud_bgr:
+      name: Cloud
+      prob: 0.04
+      src: img/background/Cloud.png
 
-mouth:
-  category: Mouth
+skin:
+  category: Skin
   values:
-    normal_mouth:
-      prob: 0.19
-      src: img/mouths/normal.png
-    grin_mouth:
-      name: Grin
-      prob: 0.19
-      src: img/mouths/grin.png
-    laugh_mouth:
-      name: Laugh
-      prob: 0.19
-      src: img/mouths/laugh.png
-    sad_mouth:
-      name: Sad
-      prob: 0.08
-      src: img/mouths/sad.png
-    angry_mouth:
-      name: Angry
-      prob: 0.08
-      src: img/mouths/angry.png
-    cigarette_mouth:
-      category: Accessory
-      name: Cigarette
-      prob: 0.08
-      src: img/mouths/cigarette.png
-    blunt_mouth:
-      category: Accessory
-      name: Blunt
-      prob: 0.03
-      src: img/mouths/blunt.png
-    bone_mouth:
-      category: Accessory
-      name: Bone
-      prob: 0.1
-      src: img/mouths/bone.png
-    hannibal_mouth:
-      category: Accessory
-      name: Hannibal Mask
-      prob: 0.02
-      src: img/mouths/hannibal.png
-    op_mask_mouth:
-      category: Accessory
-      name: Medical Face Mask
-      prob: 0.02
-      src: img/mouths/op_mask.png
-    snorkel_mouth:
-      category: Accessory
-      name: Snorkel
-      prob: 0.02
-      src: img/mouths/snorkel.png
+    white_skin:
+      name: White
+      prob: 0.50
+      src: img/skin/White.png
+    choco_skin:
+      name: Choco
+      prob: 0.40
+      src: img/skin/Choco.png
+    strawberry_skin:
+      name: Strawberry
+      prob: 0.10
+      src: img/skin/Strawberry.png
 
-eyes:
+earring:
+  category: Earrings
+  values:
+    gold_earring:
+      name: Gold Dangle
+      prob: 0.10
+      src: img/earrings/Gold_Dangle.png
+    silver_earring:
+      name: Silver Cuffs
+      prob: 0.10
+      src: img/earrings/Silver_Cuffs.png
+    gold_cuffs:
+      name: Gold Cuffs
+      prob: 0.10
+      src: img/earrings/Gold_Cuffs.png
+    silver_dangle:
+      name: Silver Dangle
+      prob: 0.10
+      src: img/earrings/Silver_Dangle.png
+    none_ear:
+      prob: 0.60
+      src: img/earrings/none.png
+
+horns: 
+  category: Horns
+  values: 
+    gray_horns:
+      name: Gray Horns
+      prob: 0.75
+      src: img/horns/Gray.png
+    red_horns: 
+      name: Red Horns 
+      prob: 0.25
+      src: img/horns/Red.png
+
+eye:
   category: Eyes
   values:
-    normal_eyes:
+    black_eyes:
+      name: Black
       prob: 0.15
-      src: img/eyes/normal.png
-    hearts_red_eyes:
-      name: Red Hearts
-      prob: 0.03
-      src: img/eyes/hearts_red.png
-    hearts_pink_eyes:
-      name: Pink Hearts
-      prob: 0.02
-      src: img/eyes/hearts_pink.png
-    dollar_eyes:
-      name: Dollars
+      src: img/eyes/Black.png
+    blue_eyes:
+      name: Blue
+      prob: 0.15
+      src: img/eyes/Blue.png
+    green_eyes:
+      name: Green
+      prob: 0.15
+      src: img/eyes/Green.png
+    pink_eyes:
+      name: Pink
+      prob: 0.15
+      src: img/eyes/Pink.png
+    red_eyes:
+      name: Red
+      prob: 0.15
+      src: img/eyes/Red.png
+    anime_glasses:
+      name: AnimeGlasses
       prob: 0.05
-      src: img/eyes/dollars.png
-    sad_eyes:
-      name: Sad
-      prob: 0.13
-      src: img/eyes/sad.png
-    angry_eyes:
-      name: Angry
-      prob: 0.13
-      src: img/eyes/angry.png
-    glasses_eyes:
-      category: Accessory
+      src: img/eyes/AnimeGlasses.png
+    eyepatch:
+      name: Eyepatch
+      prob: 0.05
+      src: img/eyes/Eyepatch.png
+    glasses:
       name: Glasses
-      prob: 0.13
-      src: img/eyes/glasses.png
-    sun_black_eyes:
-      category: Accessory
-      name: Black Sunglasses
-      prob: 0.1
-      src: img/eyes/sun.png
-    sun_blue_eyes:
-      category: Accessory
-      name: Blue Sunglasses
-      prob: 0.07
-      src: img/eyes/blue_sun.png
-    sun_yellow_eyes:
-      category: Accessory
-      name: Yellow Sunglasses
-      prob: 0.07
-      src: img/eyes/yellow_sun.png
-    sun_pink_eyes:
-      category: Accessory
-      name: Pink Sunglasses
       prob: 0.05
-      src: img/eyes/pink_sun.png
-    terminator_eyes:
-      name: Terminator
-      prob: 0.02
-      src: img/eyes/terminator.png
-    diving_googles_eyes:
-      category: Accessory
-      name: Diving Googles
+      src: img/eyes/Glasses.png
+    goji_blindfold: 
+      name: Goji Blindfold
       prob: 0.05
-      src: img/eyes/diving_goggles.png
+      src: img/eyes/GojiBlinfold.png
+    green_lazers:
+      name: Green Lazers
+      prob: 0.025
+      src: img/eyes/GreenLazers
+    red_lazers:
+      name: Red Lazers
+      prob: 0.025
+      src: img/eyes/RedLazers
+accesories:
+  values: 
+     blood_splatter:
+       name: Blood Splatter 
+       prob: 0.05
+       src: img/accesories/BloodSplatter.png
+     luffy_hat:
+       name: Luffy Hat
+       prob: 0.05
+       src: img/accesories/LuffyHat.png
+     runny_nose:
+       name: Runny Nose 
+       prob: 0.30
+       src: img/accesories/RunnyNose.png
+     smoker:
+       name: Smoker
+       prob: 0.30
+       src: img/accesories/Smoker.png
+     sprout: 
+       name: Sprout 
+       prob: 0.30
+       src: img/accesories/Sprout.png
+    
+

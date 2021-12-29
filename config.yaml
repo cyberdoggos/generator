@@ -8,8 +8,8 @@ number: 1000
 distance: 3
 
 # Grid size of generated images.
-image_width: 24
-image_height: 24
+image_width: 1470
+image_height: 1470
 
 # Determines how big each 'pixel' gets in the final image.
 # CyberDoggos are designed in a 24x24 grid, with a scale of 14 the
@@ -25,7 +25,7 @@ collage_height: 20
 collage_scale: 3
 
 # Prefix of generated files.
-prefix: cyberdoggo
+prefix: Cow
 
 # Build folder path.
 build: ./build
